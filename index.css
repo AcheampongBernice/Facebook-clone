@@ -79,7 +79,7 @@ b:hover{
     padding: 5px 0;
 }
 input:focus{
-  border: 2px solid blue;
+  border: 2px solid rgb(55, 55, 218);
 }
 #login{
   background-color:#1877F2;
