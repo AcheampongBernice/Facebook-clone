@@ -28,7 +28,7 @@ height: 100vh;
     flex-direction: column;
   }
   .firstdiv{
-width: 100%;
+  width: 100%;
 
   }
   .seconddiv{
@@ -53,12 +53,14 @@ line-height: 26px;
 .forms{
   background-color: #FFFFFF;
   line-height: 28px;
-  padding: 25px ;
+  padding: 15px;
+  padding-right: 80px;
   display: flex;
  justify-content: center;
-margin-right: 100px;
-margin-left: 100px;
-margin-top: 50px;
+margin-right: 85px;
+margin-left: 85px;
+margin-top: 40px;
+margin-bottom: 40px;
 border-radius: 10px;
 box-shadow: 0 1px 1px #dadce0;
 border: 1.5px solid #dadce0;
@@ -78,19 +80,39 @@ b:hover{
 .email,.password{
     padding: 5px 0;
 }
-input:focus{
-  border: 2px solid rgb(55, 55, 218);
+
+input{
+  height: 45px;
+  width: 120%;
+  border-radius:6px ;
+  border: 1.5px solid #f0f2f5c4;
+  font-size: 17px;
 }
+
+input:focus{
+border: 1px solid  #1b74e4;
+box-shadow: 0 0 0 2px #e7f3ff;
+outline: none !important;
+}
+
 #login{
   background-color:#1877F2;
-  border-color: transparent;
+  border: none;
   color: #FFF;
-  border-radius: 3px;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
 }
 
 #new{
   background-color: #42B72A;
-  border-color: transparent;
+  border:none;
   color: #FFFFFF;
-  border-radius: 3px;
+  border-radius: 5.5px;
+  padding: 0 16px 0 0;
+  height: 45px;
+  width: 50%;
+  font-size: 16px;
 }
